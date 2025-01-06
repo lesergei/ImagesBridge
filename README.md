@@ -16,28 +16,3 @@ Image Compatibility: Automatically identifies the active image based on context 
 Quick Save: Dedicated button to save edited images before sending them to an external editor.
 
 Intuitive interface: Integration into the image editor, the 3D view (sidebar) and the properties panel (materials section).
-
-Facility :
-Download the .zip file from the addon.
-In Blender, go to Edit > Preferences > Add-ons.
-Click Install, select the .zip file, then activate the addon.
-
-Use :
-
-Add an external editor:
-Go to Edit > Preferences > Add-ons > ImagesBridge.
-Click Add Editor.
-Give the editor a name (e.g.: Krita) and add the full path to its executable.
-
-Open an image:
-Select an image in the image editor, 3D view, or material properties.
-Click the editor button in the side panel.
-
-Save an image:
-Make sure the image is saved before opening it. Use the Save Image button if necessary.
-
-Limitations:
-Images must be saved as a file before opening in an external editor.
-
-Support:
-For any questions or issues, please feel free to open a ticket or contact me. Contributions and suggestions for improvement are welcome!

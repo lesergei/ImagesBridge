@@ -1,18 +1,28 @@
-# ImagesBridge
-Version: 1.0.12
-Author: lesergei3d
-Compatibility: Blender 4.3.0 and later
+ImagesBridge
 
-Description :
-The ImagesBridge addon makes it simple to manage and open images in multiple external editors directly from Blender. Designed for artists and creators, it makes it easy to switch between Blender and your favorite editing software.
+Technical Information
+  Blender Version: Compatible with Blender 4.3.1 and above.
+  Category: Image
+  Version: 1.0.19
+  Author: lesergei3d
 
-Main features:
-Managing external editors: Add, modify, delete or rearrange your editors in the addon preferences. Configure multiple editors for different needs (e.g. Krita, Clip Studio Paint).
+Advanced External Image Editor Management for Blender
+ImagesBridge is a Blender addon that allows seamless integration with multiple external image editors. It enhances image management within Blender and simplifies editing with your favorite software.
 
-Quickly open images: Open an image in one click, from different contexts: image editor, 3D view or materials panel.
+✨ Features:
 
-Image Compatibility: Automatically identifies the active image based on context (material texture, open image). Ensures images are saved before opening in an editor.
+  📂 Multi-Editor Configuration: Add multiple external image editors and set their paths.
 
-Quick Save: Dedicated button to save edited images before sending them to an external editor.
+  🎨 Quick Access: Open the active image directly in your chosen editor from Blender's interface.
 
-Intuitive interface: Integration into the image editor, the 3D view (sidebar) and the properties panel (materials section).
+  💾 Smart Saving:
+Automatically saves modified images before opening them in an external editor.
+If an image has no file path, a save dialog is triggered.
+
+  📌 Seamless Integration:
+Available in a dedicated panel in Image Editor, 3D View, and Material Properties.
+User-friendly interface with dedicated buttons for each configured editor.
+
+  🔼🔽 Editor Reordering: Organize your favorite editors with move-up and move-down buttons.
+
+  ❌ Easy Removal: Remove an editor from the list with one click.

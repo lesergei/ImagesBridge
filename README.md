@@ -1,10 +1,14 @@
 ImagesBridge
 
 Technical Information
-  Blender Version: Compatible with Blender 4.3.1 and above.
-  Category: Image
-  Version: 1.0.19
-  Author: lesergei3d
+   Blender Version: Compatible with Blender 4.3.1 and above.
+   
+   Category: Image
+   
+   Version: 1.0.19
+   
+   Author: lesergei3d
+   
 
 Advanced External Image Editor Management for Blender
 ImagesBridge is a Blender addon that allows seamless integration with multiple external image editors. It enhances image management within Blender and simplifies editing with your favorite software.

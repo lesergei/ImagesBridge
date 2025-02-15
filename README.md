@@ -1,32 +1,26 @@
-ImagesBridge
+New Features & Improvements
+UI Enhancement: Replaced the custom editor list in preferences with a more "Blender-like" UI using UIList.
 
-Technical Information
-   Blender Version: Compatible with Blender 4.3.1 and above.
-   
-   Category: Image
-   
-   Version: 1.0.19
-   
-   Author: lesergei3d
-   
+Better Error Handling:
+The addon now checks for the existence of context.material before accessing its attributes, preventing crashes when no object is selected.
 
-Advanced External Image Editor Management for Blender
-ImagesBridge is a Blender addon that allows seamless integration with multiple external image editors. It enhances image management within Blender and simplifies editing with your favorite software.
+Improved image selection logic to avoid unexpected errors when no active image is found.
 
-✨ Features:
+Improved Image Saving Workflow:
+If an unsaved image is opened from the 3D View, the Texture Paint workspace will now be activated automatically before prompting the user to save the image.
 
-  📂 Multi-Editor Configuration: Add multiple external image editors and set their paths.
+Refactored Code Structure:
+Simplified the get_active_image function for better reliability across different editors.
+Enhanced operator execution flow to ensure a smoother experience.
 
-  🎨 Quick Access: Open the active image directly in your chosen editor from Blender's interface.
+Bug Fixes
+Fixed Crash on Empty Scene: Prevented an error when all objects are deleted from the scene.
+Fixed Context Errors: The addon now correctly handles cases where context.material is unavailable.
+Fixed Save Prompt Behavior: Improved logic to ensure the save prompt appears only when needed.
 
-  💾 Smart Saving:
-Automatically saves modified images before opening them in an external editor.
-If an image has no file path, a save dialog is triggered.
+General Improvements
+Code Optimization: Reduced redundant operations for better performance.
 
-  📌 Seamless Integration:
-Available in a dedicated panel in Image Editor, 3D View, and Material Properties.
-User-friendly interface with dedicated buttons for each configured editor.
+Cleanup: Ensured __pycache__ is excluded from the final release.
 
-  🔼🔽 Editor Reordering: Organize your favorite editors with move-up and move-down buttons.
-
-  ❌ Easy Removal: Remove an editor from the list with one click.
+Enjoy a smoother experience with ImagesBridge! 

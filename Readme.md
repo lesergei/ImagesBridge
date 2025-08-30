@@ -112,9 +112,3 @@
 ![Preferences Example](docs/screenshots/preferences.png)  
 
 ---
-
-💡 **Tips / Conseils :**  
-- Place your screenshots in a `docs/screenshots/` folder.  
-- Reference them in the README with relative paths like:  
-  ```markdown
-  ![Example](docs/screenshots/example.png)

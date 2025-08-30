@@ -1,0 +1,28 @@
+schema_version = "1.0.0"
+
+id = "ImagesBridge"
+version = "1.0.34"
+name = "ImagesBridge"
+tagline = "Manage and open images in ImagesBridge"
+maintainer = "lesergei3d <leserge3d@gmail.com>"
+type = "add-on"
+
+# Blender version compatibility
+blender_version_min = "4.3.0"
+
+# License conforming to SPDX
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+# Permissions required by the addon
+[permissions]
+files = "Access images on disk to open them in external editors"
+
+# Advanced build settings (optional)
+[build]
+paths_exclude_pattern = [
+  "__pycache__",
+  ".git",
+  "*.zip",
+]

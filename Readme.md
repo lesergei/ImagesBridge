@@ -1,16 +1,18 @@
-🖼️ ImagesBridge
+🖼️ ImagesBridge – README
 
 (French version follows / La version française suit)
 
-📛 Description
+📛 Name & Description | Nom & Description
 
-English: Open Blender images directly in your favorite external editors (e.g., Affinity Photo, GIMP, Krita) with one click.
+Name / Nom : ImagesBridge
 
-Français : Ouvrez vos images Blender directement dans vos éditeurs externes préférés (ex. Affinity Photo, GIMP, Krita) en un clic.
+English : Open Blender images in external editors (e.g., GIMP, Krita, Affinity Photo) with dedicated buttons.
+
+Français : Ouvrez vos images Blender dans des éditeurs externes (ex. GIMP, Krita, Affinity Photo) grâce à des boutons dédiés.
 
 ⚙️ Info
 
-Blender: 4.5.0+
+Blender : 4.5+
 
 Category / Catégorie : Image
 
@@ -18,27 +20,27 @@ Version : 1.0.34
 
 Author / Auteur : lesergei3d
 
-🚀 Main Features | Fonctionnalités principales
+🚀 Features | Fonctionnalités
 
-English:
+English :
 
-Manage multiple external editors in Blender Preferences.
+Register multiple external editors in Preferences.
 
-Open saved images directly in chosen editor.
+Open images directly in selected editor.
 
-Quick Save Image button before editing.
+Save-before-edit workflow with Save Image button.
 
-Integration in Image Editor, 3D View, Shader Properties, and Preferences.
+Reload image into Blender after editing.
 
 Français :
 
-Gérez plusieurs éditeurs externes dans les Préférences Blender.
+Enregistrer plusieurs éditeurs externes dans les Préférences.
 
-Ouvrez directement les images sauvegardées dans l’éditeur choisi.
+Ouvrir une image directement dans l’éditeur choisi.
 
-Bouton rapide Save Image avant édition.
+Workflow "sauvegarder avant d’éditer" avec bouton Save Image.
 
-Intégration dans l’Éditeur d’images, Vue 3D, Propriétés shader et Préférences.
+Recharger l’image modifiée dans Blender.
 
 📸 Screenshots / Captures
 🖼️ Image Editor | Éditeur d’images
@@ -48,6 +50,3 @@ Intégration dans l’Éditeur d’images, Vue 3D, Propriétés shader et Préf�
 ⚙️ Properties Panel | Panneau Propriétés
 
 🛠️ Preferences | Préférences
-
-
----

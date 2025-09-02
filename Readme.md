@@ -42,11 +42,16 @@ Workflow "sauvegarder avant d’éditer" avec bouton Save Image.
 
 Recharger l’image modifiée dans Blender.
 
-📸 Screenshots / Captures
-🖼️ Image Editor | Éditeur d’images
+## 📸 Screenshots / Captures
 
-🎛️ 3D View | Vue 3D
+### 🖼️ Image Editor | Éditeur d’images
+![Image Editor Example](docs/screenshots/image_editor.png)
 
-⚙️ Properties Panel | Panneau Propriétés
+### 🎛️ 3D View | Vue 3D
+![3D View Example](docs/screenshots/3d_view.png)
 
-🛠️ Preferences | Préférences
+### ⚙️ Properties Panel | Panneau Propriétés
+![Properties Panel Example](docs/screenshots/properties_panel.png)
+
+### 🛠️ Preferences | Préférences
+![Preferences Example](docs/screenshots/preferences.png)
